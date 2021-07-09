@@ -32,3 +32,6 @@ include(Builds/CMake/CompileOptions.cmake)
 
 # Overrides
 set(CMAKE_MACOSX_RPATH ON)
+
+# Samples
+add_subdirectory(ConcurrencyInAction/Chapter1/01-helloworld)
